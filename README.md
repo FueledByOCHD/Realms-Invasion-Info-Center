@@ -7,12 +7,12 @@ A few things to note,
 Realms Invasion is a new and WIP project which means that things are subject to change alot between releases so please I ask you keep coming back from time to time
 
 ## **Index**
-- [**Home**](https://github.com/Ancient-Majik-Tech/PZ-Realms-Info-Center/blob/master/README.md)
-- [**About the Repo**](https://github.com/Ancient-Majik-Tech/PZ-Realms-Info-Center/blob/master/README.md#about-the-repo)
+- [**Home**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md)
+- [**About the Repo**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#about-the-repo)
 - [**About Project 'Realms'**]()
-- [**What is Realms Invasion**](https://github.com/Ancient-Majik-Tech/PZ-Realms-Info-Center/blob/master/README.md#what-is-realms-invasion)
+- [**What is Realms Invasion**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#what-is-realms-invasion)
     - [**What is Realms of Reality**]()
-    - [**Realms Invasion Features**](https://github.com/Ancient-Majik-Tech/PZ-Realms-Info-Center/blob/master/README.md#realms-invasion-features)
+    - [**Realms Invasion Features**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#realms-invasion-features)
 - [**Index**]()
     - **General**
         - [**Want To Donate?**]()
@@ -22,8 +22,8 @@ Realms Invasion is a new and WIP project which means that things are subject to 
         - [**Credits and Shoutouts**]()
         - [**Long Term Goals**]()
     - **Mods**
-        - [**Framework**](https://github.com/Ancient-Majik-Tech/PZ-Realms-Info-Center/blob/master/Mods/Framework/RI_Frame.md)
-        - [**Aftermath**](https://github.com/Ancient-Majik-Tech/PZ-Realms-Info-Center/blob/master/Mods/Aftermath/RI_Aftermath.md)
+        - [**Framework**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Framework/RI_Frame.md)
+        - [**Aftermath**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/RI_Aftermath.md)
         - **Aftermath Components**
             - [**Cleaning**]()
             - [**Forestry**]()
