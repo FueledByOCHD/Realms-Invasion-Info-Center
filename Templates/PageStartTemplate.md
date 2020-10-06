@@ -1,6 +1,6 @@
 # Realms Invasion 'Info Center': **{}**
 
-Welcome to the **{}** of the Realms Invasion Info Center. 
+Welcome to the **{}** page of the Realms Invasion Info Center. 
 This 'Info Center' is the public knowledge database for the Realms Invasion Mods for Project Zomboid
 
 A few things to note, 
