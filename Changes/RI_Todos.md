@@ -19,6 +19,8 @@ This section is to allow users quick access to the Change log and Todo list of a
     - [ General ]
         - [**Discord Server**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Discord/RI_Discord_Todo.md)
         - [**Patreon**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Patreon/RI_Patreon_Todo.md)
+        - [**Steam**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Steam/RI_Steam_Todo.md)
+        - [**Info Center**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/RI_IC_Todo.md)
     - **Mods**
         - [**Framework**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Framework/RI_Frame_Todo.md)
         - [**Aftermath**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/RI_Aftermath_Todo.md)
