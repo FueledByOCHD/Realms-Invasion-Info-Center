@@ -12,6 +12,8 @@
 
 - Update Recipe System with Main Catagories and Evolved Recipes
 - Update Game System with Game Logic Wrappers
+- Add system to allow changing categories of evolved recipes 
+- Impliment using Realms Invasion 'Projects'
 
 ### **Change Log**
 

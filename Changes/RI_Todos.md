@@ -29,6 +29,7 @@ This section is to allow users quick access to the Change log and Todo list of a
             - [**Dark Tech**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/DarkTech/RI_TechDark_Todo.md)
             - [**Electricity**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Electricity/RI_Electric_Todo.md)
             - [**Forestry**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Forestry/RI_Log_Todo.md)
+            - [**Gunworks**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Gunworks/RI_Guns_Todo.md)
             - [**Herbalism**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Herbalism/RI_Herb_Todo.md)
             - [**Hybrid Tech**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/HybridTech/RI_TechHybrid)
             - [**Majik Tech**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/MajikTech/RI_TechMajik_Todo.md)
@@ -36,7 +37,7 @@ This section is to allow users quick access to the Change log and Todo list of a
             - [**Metal Works**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/MetalWorks/RI_Smith_Todo.md)
             - [**Military**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Military/RI_QRF_Todo.md)
             - [**Packaging**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Packaging/RI_Package_Todo.md)
-            - [**Recycling**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Recycling/RI_Recycle_Todo.md)
+            - [**Recycle**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Recycle/RI_Recycle_Todo.md)
             - [**Repurpose**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Repurpase/RI_Reuse_Todo.md)
             - [**Survival**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Survival_Todo.md)
     - **Tools**
