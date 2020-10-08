@@ -44,6 +44,8 @@ Power Node Tier is used to get basic access to releases two weeks before the pub
 
 #### **Well of Majik**
 
+Well of Majik is used to get the Rewards of Power Node plus access the the Development Channels on the discord server.
+
 - Cost: **3$**
 - Rewards:
     - Early Release
@@ -51,6 +53,8 @@ Power Node Tier is used to get basic access to releases two weeks before the pub
     - Development Chat Access
 
 #### **Royal Knight**
+
+Royal Knights gain access to all previous rewards plus access to all the feature request channels on the discord server.
 
 - Cost: **7$**
 - Rewards:
@@ -60,6 +64,8 @@ Power Node Tier is used to get basic access to releases two weeks before the pub
     - Feature Request Access
 
 #### **Guardian of the Sunea**
+
+Guardian's of the Sunea gain access to all previous rewards plus access to all beta test releases of applications, tools and any other works.
 
 - Cost: **13$**
 - Rewards:

@@ -22,7 +22,6 @@ Welcome, Here covers the current
 - Add Feature to move mods when changing Projects Folder
 - Add Feature to move Imported Mods when changing Imports Folder
 - Update all Data with Memory System
-- Add Feature to allow Editor to be used for other games
 - Add a Editor Components System
 - Add a Feature to check to see if User ID is acceptable
 - Polish features for better control and easier working
