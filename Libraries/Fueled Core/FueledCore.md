@@ -54,5 +54,5 @@ This page covers all the basic infomation about my custom Application Core C#(Sh
         - [**Aliased Pathing**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/AliasedPathing.md)
         - [**Data System**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/DataSystem.md)
         - [**Debug Logging**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/DebugLogging.md)
-        - [**User System**]((https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/UserSystem.md)
+        - [**User System**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/UserSystem.md)
         - [**Runtime Settings**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/RuntimeSettings.md)
