@@ -6,7 +6,7 @@ This 'Info Center' is the public knowledge database for the Realms Invasion Mods
 A few things to note, 
 Realms Invasion is a new and WIP project which means that things are subject to change alot between releases so please I ask you keep coming back from time to time
 
-This page is to give some history into the developer and what drives him.
+This page is to give some history into myself and what drives me.
 
 ## **Index**
 - [**Home**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md)
@@ -16,7 +16,17 @@ This page is to give some history into the developer and what drives him.
     - [**What is Realms of Reality**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutRealmsOfReality.md)
     - [**Realms Invasion Features**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#realms-invasion-features)
 - [**Index**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutMe#index)
-    - [**Basic Details**]()
-    - [**Hobbies**]()
-    - [**Skills**]()
-    - [**Disadvantages**]()
+    - [**Basic Details**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutMe#basic-details)
+    - [**Hobbies**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutMe#hobbies)
+    - [**Skills**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutMe#skills)
+    - [**Disadvantages**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutMe#disadvantages)
+
+
+### **Basic Details**
+
+
+### **Hobbies**
+
+### **Skills**
+
+### **Disadvantages**
