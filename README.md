@@ -47,9 +47,9 @@ Realms Invasion is a new and WIP project which means that things are subject to 
     - **Tools**
         - [**Projects**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects.md)
     - **Libraries**
-        - [**Fueled.Core"](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Libraries/Fueled%20Core/FueledCore.md)
+        - [**Fueled.Core**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Libraries/Fueled%20Core/FueledCore.md)
             - **Fueled Core Extentions**
-                - [**Fueled.Core.LuaScript](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Libraries/Fueled%20Core/Extentions/Lua%20Script/FueledLuaScript.md)
+                - [**Fueled.Core.LuaScript**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Libraries/Fueled%20Core/Extentions/Lua%20Script/FueledLuaScript.md)
 
 
 
