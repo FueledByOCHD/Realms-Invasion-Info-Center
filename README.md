@@ -62,3 +62,4 @@ Realms Invasion is a collection of mods with the long term goal of overhauling P
 
 ### **Realms Invasion Features**
 
+Realms Invasion Mods are on hold while I develop out [**Realms Invasion 'Projects']() out to allow me to more effectivly develop and maintain them.
