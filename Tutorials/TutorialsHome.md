@@ -26,8 +26,6 @@ This is the home page for all the tutorials of all things Realms Invasion. This 
                 - [**Debug Logging**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/DebugLogging.md)
                 - [**Users**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/UserSystem.md)
                 - [**Runtime Settings**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/RuntimeSettings.md)
-        - **Extentions**
-            - **LuaScript**
     - **Project Zomboid**
         - [**How to install Mods**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Zomboid/HowToInstallPZMods.md)
         - [**How to Mod** (Non 'Projects')](https://github.com/FWolfe/Zomboid-Modding-Guide)

@@ -4,6 +4,8 @@ Welcome, Here covers the current
 
 ### **TODO**
 
+- Add ability for components system
+- Add ability for user settings editing
 - Add Default settings feature to Editor Settings System
 - Add UI Theme System
 - Add UI theme settings feature to Editor Settings System

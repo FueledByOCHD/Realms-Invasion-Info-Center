@@ -69,11 +69,11 @@ pathOfSave.SaveObj(GetSaveObject());
 
 #### **Users System**
 
-- **Not Yet Implimented**
+Fueled Core's Users System is designed to allow the editor to function independantly of the current user of the Operating system. That way systems that use a **Shared** account each user can do work on thier projects without requiring a long workaround.
 
 #### **Runtime Settings System**
 
-- **Not Yet Implimented**
+Fueled Core's Runtime Settings System is designed to allow our code to designate settings that control how things function. This system allows the settings to be controlled by the Active User which allows the whole system to react to when users are changed because the whole system can adjust for the active user.
 
 
 ### **Tutorials**
