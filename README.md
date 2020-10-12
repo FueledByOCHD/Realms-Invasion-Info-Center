@@ -21,7 +21,7 @@ Realms Invasion is a new and WIP project which means that things are subject to 
         - [**Follow On Discord**](https://discord.gg/8P2kvwm)
         - [**Changes and Todo**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Changes/RI_Todos.md)
         - [**Credits and Shoutouts**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Credits/RI_FullCredits.md)
-        - [**Long Term Goals**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/LongTermGoals.md)
+        - [**Long Term Goals**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutProjectRealms.md#long-term-goals)
     - **Mods**
         - [**Framework**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Framework/RI_Frame.md)
         - [**Aftermath**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/RI_Aftermath.md)
@@ -48,8 +48,6 @@ Realms Invasion is a new and WIP project which means that things are subject to 
         - [**Projects**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects.md)
     - **Libraries**
         - [**Fueled.Core**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Libraries/Fueled%20Core/FueledCore.md)
-            - **Fueled Core Extentions**
-                - [**Fueled.Core.LuaScript**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Libraries/Fueled%20Core/Extentions/Lua%20Script/FueledLuaScript.md)
 
 
 

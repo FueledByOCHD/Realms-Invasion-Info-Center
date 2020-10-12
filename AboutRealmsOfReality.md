@@ -24,7 +24,7 @@ This page covers some infomation into the Realms of Reality will help you get ge
 
 ### **Overview**
 
-Realms of Reality is a Role Playing Lore set built around being used in Classless Skill Based RPG games. Realms of Reality tries to use as close to real world logic, like gravity and much more to provide a very unique user experience that can be discribed as 'A Realms of Reality' game.
+Realms of Reality is a Role Playing Lore set built around being used in Classless Skill Based RPG games. Realms of Reality tries to use as close to real world logic, like gravity and much more to provide a very unique user experience that can be discribed as 'A Realms of Reality' game. Realms of Reality focuses on not only Fantasy but aims to be a balance between Sci-Fi and Fantasy.
 
 ### **The Realms Experience**
 
