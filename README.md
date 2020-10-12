@@ -62,4 +62,4 @@ Realms Invasion is a collection of mods with the long term goal of overhauling P
 
 ### **Realms Invasion Features**
 
-Realms Invasion Mods are on hold while I develop out [**Realms Invasion 'Projects'](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects.md) out to allow me to more effectivly develop and maintain them.
+Realms Invasion Mods are on hold while I develop out [**Realms Invasion 'Projects'**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects.md) out to allow me to more effectivly develop and maintain them.

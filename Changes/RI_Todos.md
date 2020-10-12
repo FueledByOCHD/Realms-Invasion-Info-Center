@@ -45,7 +45,5 @@ This section is to allow users quick access to the Change log and Todo list of a
     - **Tools**
         - [**Projects**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects_Todo.md)
     - **Libraries**
-        - [**Fueled.Core"](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Libraries/Fueled%20Core/FueledCore_Todo.md)
-            - **Fueled Core Extentions**
-                - [**Fueled.Core.LuaScript](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Libraries/Fueled%20Core/Extentions/Lua%20Script/FueledLuaScript_Todo.md)
+        - [**Fueled.Core**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Libraries/Fueled%20Core/FueledCore_Todo.md)
                 
