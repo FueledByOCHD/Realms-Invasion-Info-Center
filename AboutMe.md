@@ -19,12 +19,11 @@ This page is to give some history into myself and what drives me.
     - [**Basic Details**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutMe#basic-details)
     - [**Hobbies**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutMe#hobbies)
     - [**Skills**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutMe#skills)
-    - [**Disadvantages**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutMe#disadvantages)
 
 
 ### **Basic Details**
 
-Hello, I am Fueled By [**OCD**]() and [**ADHD**]() (FueledByOCHD), proud father and happly married self taught developer with a perticular intrest in Core Systems, Project Development, Game Development, System Features and Data Creation. I have always been intrested in arithmatic. I started doing High School Agebra and Geometry in the fifth grade. I ended up helping my math teachers with class due to my level of understand of many of the complex concepts. My biggest issues are my inability to visualize things mentally, Chronic Migraines, and issues with spelling and reading due to brain mixing up what I'm reading and trying to spell.
+Hello, I am Fueled By **OCD** and **ADHD** (FueledByOCHD), proud father and happly married self taught developer with a perticular intrest in Core Systems, Project Development, Game Development, System Features and Data Creation. I have always been intrested in arithmatic. I started doing High School Agebra and Geometry in the fifth grade. I ended up helping my math teachers with class due to my level of understand of many of the complex concepts. My biggest issues are my inability to visualize things mentally, Chronic Migraines, and issues with spelling and reading due to brain mixing up what I'm reading and trying to spell.
 
 ### **Hobbies**
 

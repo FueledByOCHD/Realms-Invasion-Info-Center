@@ -18,8 +18,11 @@ This page covers infomation into what Project 'Realms' is.
 - [**Index**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutProjectRealms#index)
     - [**What is Project 'Realms'**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutProjectRealms#what-is-project-realms)
     - [**Long Term Goals**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutProjectRealms#long-term-goals)
-        - [**Ancient Majik Tech**]()
-        - [**]
+        - [**Ancient Majik Tech**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutProjectRealms#ancient-majik-tech)
+        - [**Realms of Reality Lore**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutProjectRealms#realms-of-reality-lore)
+        - [**Quick Reaction Force**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutProjectRealms#quick-reaction-force)
+        - [**Realms Engine**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutProjectRealms#realms-engine)
+        - [**Realms Online**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutProjectRealms#realms-online)
 
 ### **What is Project Realms**
 
