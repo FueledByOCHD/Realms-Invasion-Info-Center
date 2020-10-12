@@ -53,13 +53,13 @@ Realms Invasion is a new and WIP project which means that things are subject to 
 
 ## **About the Repo**
 
-This repo is used to help users and modders with the use, install, uninstall, and modding when using our mods for Project Zomboid
+This Repo is used to help with getting familuar and a knowledge data base for all my works.
 
 
 ## **What is Realms Invasion**
 
-Realms Invasion is a collection of mods with the long term goal of overhauling Project Zomboid with more of a Sci-Fi Fantasy theme. The end goal is to eventually transform this into a game of its own.
+Realms Invasion is a collection of mods with the long term goal of overhauling Project Zomboid with more of a Sci-Fi Fantasy theme based off [**Realms of Reality Lore**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutRealmsOfReality.md). The end goal is to eventually transform this into a game of its own.
 
 ### **Realms Invasion Features**
 
-Realms Invasion Mods are on hold while I develop out [**Realms Invasion 'Projects']() out to allow me to more effectivly develop and maintain them.
+Realms Invasion Mods are on hold while I develop out [**Realms Invasion 'Projects'](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects.md) out to allow me to more effectivly develop and maintain them.

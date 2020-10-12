@@ -27,7 +27,7 @@ This page is used to help users understand the process of donating to help the p
 
 ### **Introduction**
 
-I use patreon to allow the users of my works to support me to allow me to devote more time into making the whole Project Realms the best It can be.
+I use patreon to allow the users of my works to support me to allow me to devote more time into making the whole Project Realms the best it can be.
 
 ### **Tiers**
 
