@@ -26,8 +26,6 @@ This page is for the up to date changes and tasks for Realms Invasion 'Projects'
 - Update all Systems with debug logging
 - Add ability for components system
 - Add ability for user settings editing
-- Add UI Theme System
-- Update all windows with UI Theme System
 - Add Last Run System
 - Add Testing System
 - Add Build System
@@ -48,3 +46,5 @@ This page is for the up to date changes and tasks for Realms Invasion 'Projects'
 
 - Inital Release [ Not Yet Released ]
 - Added some basic links to Info Center
+- Added UI theme system and updated all current custom windows to use themes.
+- Added Custom Subclass to fix an issue with not displaying right
