@@ -17,7 +17,8 @@ Realms Invasion is a new and WIP project which means that things are subject to 
     - [**Realms Invasion Features**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#realms-invasion-features)
 - [**Index**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/RI_IC_Todo#index)
     - [**Todo**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/RI_IC_Todo#todo)
-    - [**Changes**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/RI_IC_Todo#)
+    - [**Changes**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/RI_IC_Todo#changes)
+        - [**V: 1.0.0.0**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/RI_IC_Todo#1.0.0.0)
 
 ### **Todo**
 
@@ -28,10 +29,16 @@ Realms Invasion is a new and WIP project which means that things are subject to 
 - Update Realms Invasion 'Projects' page with the latest info
 - Apply template to all files
 - Fill in all placeholder pages
+- Add Tutorials for Fueled Core
+
 
 ### **Changes**
 
 #### **1.0.0.0**
 
-All updates until the the official 'Release' of Realms Invasion: Aftermath there will be no changes posted.
 - Initial Release
+- Added new template for use with tutorials
+- Moved Fueled Core's app tutorials to one united document
+- Reorgonized Tutorials folder with a Libraries and Tools Folders
+- Laid out Fueled Core's System's tutorials
+- Removed systems from the Fueled Core's info folder in favor of the tutorials documents

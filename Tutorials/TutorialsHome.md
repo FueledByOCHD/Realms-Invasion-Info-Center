@@ -17,15 +17,15 @@ This is the home page for all the tutorials of all things Realms Invasion. This 
     - [**Realms Invasion Features**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#realms-invasion-features)
 - [**Index**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/{}#index)
     - **Fueled Core**
-        - [**New App**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/NewFueledApp.md)
-        - [**Update App**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/UpdateAppWithCore.md)
-        - [**Using Design System**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/UsingFueledDesignSystem.md)
+        - [**New App**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/NewFueledApp.md#using-with-new-app)
+        - [**Update App**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Libraries/FueledCore/NewFueledApp.md#using-with-existing-app)
             - **Systems**
-                - [**Aliased File Paths**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/AliasedPathing.md)
-                - [**Data**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/DataSystem.md)
-                - [**Debug Logging**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/DebugLogging.md)
-                - [**Users**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/UserSystem.md)
-                - [**Runtime Settings**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/RuntimeSettings.md)
+                - [**Design System**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Libraries/FueledCore/Systems/DesignSystem.md)
+                - [**Aliased File Paths**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Libraries/FueledCore/Systems/AliasedPathing.md)
+                - [**Data**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Libraries/FueledCore/Systems/DataSystem.md)
+                - [**Debug Logging**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Libraries/FueledCore/Systems/DebugLogging.md)
+                - [**Users**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Libraries/FueledCore/Systems/UserSystem.md)
+                - [**Runtime Settings**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Libraries/FueledCore/Systems/RuntimeSettings.md)
     - **Project Zomboid**
         - [**How to install Mods**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Zomboid/HowToInstallPZMods.md)
         - [**How to Mod** (Non 'Projects')](https://github.com/FWolfe/Zomboid-Modding-Guide)

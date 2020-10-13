@@ -79,9 +79,9 @@ Fueled Core's Runtime Settings System is designed to allow our code to designate
 ### **Tutorials**
 
 - [**Tutorials Home**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/TutorialsHome.md)
-- [**New App with Fueled Core**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/NewFueledApp.md)
-- [**Update App with Fueled Core**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/UpdateAppWithCore.md)
-- [**Using Fueled Design System**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/UsingFueledDesignSystem.md)
+- [**New App with Fueled Core**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Libraries/FueledCore/NewFueledApp.md#using-with-new-app)
+- [**Update App with Fueled Core**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Libraries/FueledCore/FueledAppsTutorial.md#using-with-existing-app)
+- [**Using Fueled Design System**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/DesignSystem.md)
     - **System Tutorials**
         - [**Aliased Pathing**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/AliasedPathing.md)
         - [**Data System**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCore/Systems/DataSystem.md)
