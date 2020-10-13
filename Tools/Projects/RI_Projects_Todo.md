@@ -40,11 +40,11 @@ This page is for the up to date changes and tasks for Realms Invasion 'Projects'
 - Add Disposeable Collections System
 - Add a Editor Components System
 - Add a Feature to check to see if User ID is acceptable
-- Add a Feature to Letting you know user is signed out when editing user info
-- Add Link system to allow linking editor to Info Center
+- Add custom windows feature into the editor
 
 ### **Changes**
 
 #### **1.0.0.0**
 
 - Inital Release [ Not Yet Released ]
+- Added some basic links to Info Center
