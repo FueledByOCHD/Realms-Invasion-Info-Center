@@ -1,5 +1,4 @@
-
-Hello,
-I am FueledByOCHD, I welcome you to the world of the Realms Invasion of Project Zomboid.
-
-For those of you
+Hello and welcome to my patreon,
+Who am I? You may be asking yourself. I am FueledByOCHD, full time father and full time hobby (Modder/Developer) Who
+specializes in the coding language c#. Although recently I have started with the development of a custom 
+fantasy/Sci-fi overhaul modset for Project Zomboid. 

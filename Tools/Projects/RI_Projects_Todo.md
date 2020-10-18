@@ -1,6 +1,6 @@
-# Realms Invasion 'Info Center': **Tools - Projects - Changes and Todo**
+# Realms Invasion 'Info Center': **Tools - Projects - Changes and Tasks**
 
-Welcome to the **Tools - Projects - Changes and Todo** page of the Realms Invasion Info Center. 
+Welcome to the **Tools - Projects - Changes and Tasks** page of the Realms Invasion Info Center. 
 This 'Info Center' is the public knowledge database for the Realms Invasion Mods for Project Zomboid
 
 A few things to note, 
@@ -16,12 +16,12 @@ This page is for the up to date changes and tasks for Realms Invasion 'Projects'
     - [**What is Realms of Reality**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutRealmsOfReality.md)
     - [**Realms Invasion Features**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#realms-invasion-features)
 - [**Index**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects_Todo.md#index)
-    - [**TODO**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects_Todo.md#todo)
+    - [**Tasks**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects_Todo.md#tasks)
     - [**Changes**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects_Todo.md#changes);
         - [**V: 1.0.0.0**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects_Todo.md#1.0.0.0)
     
 
-### **TODO**
+### **Tasks**
 
 - Update all Systems with debug logging
 - Add ability for components system
@@ -39,6 +39,8 @@ This page is for the up to date changes and tasks for Realms Invasion 'Projects'
 - Add a Editor Components System
 - Add a Feature to check to see if User ID is acceptable
 - Add custom windows feature into the editor
+- Add component for developing c# projects
+- Update "Projects" system with ability to load projects from imported and user projects
 
 ### **Changes**
 
@@ -48,3 +50,7 @@ This page is for the up to date changes and tasks for Realms Invasion 'Projects'
 - Added some basic links to Info Center
 - Added UI theme system and updated all current custom windows to use themes.
 - Added Custom Subclass to fix an issue with not displaying right
+- Updated to use new Fueled App system
+- Updated all Systems to use the new Systems Collection System
+- Updated with the basics of "Components System" laid out
+- Updated with the basics of "Projects System" laid out
