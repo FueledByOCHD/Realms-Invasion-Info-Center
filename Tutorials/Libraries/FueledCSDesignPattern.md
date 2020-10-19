@@ -29,6 +29,8 @@ This page covers the custom design pattern used by all my projects and works.
                     - [**Log Package**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#log-package)
                     - [**Setting Package**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#setting-package)
             - [**System ID Objects**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#system-id-objects)
+            - [**Feature IDs**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#feature-ids)
+        - [**Library Tracking**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#library-tracking)
     - [**Related Tutorials**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#related-tutorials)
 
 ### **About**
@@ -290,6 +292,23 @@ namespace Fueled.Core.Apps {
 ```
 
 You have now successfully applied all the given attributes that are used to Identify your Project, System and the system's features. These will be used by other attributes to allow the system to read the given Systems and features inside a given project.
+
+#### **Library Tracking**
+
+Fueled Core is designed to allow us to mark our libraries and applications as belonging to a given project. First thing we need to do is find our library/app's AssemblyInfo.cs file. Next we open this file using the IDE. at the top you need to add two using statements, the first is to the namespace holding the design attributes, the second is the namespace of our project id object. For Fueled Core this looks like.
+
+```cs
+using Fueled.Core.Design;
+using Fueled.Core;
+```
+
+Next we will add the following to the bottom of the page.
+
+```cs
+[assembly: ProjectLibrary(FueledID.ProjectID)]
+```
+
+Replace the "FueledID.ProjectID" with the your libraries "ProjectIDObject" class and your Project ID.
 
 ### **Related Tutorials**
 
