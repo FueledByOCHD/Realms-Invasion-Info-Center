@@ -122,7 +122,7 @@ namespace Fueled.Core {
 }
 ```
 
-Now that we have our basic ID's in place we can start to add the given attributes. There are three attributes that apply to ID's. They are ProjectIDObject, ProjectID, ProjectIDPiece. To Apply these attributes it looks like so
+Now that we have our basic ID's in place we can start to add the given attributes. There are three attributes that apply to ID's. They are ProjectIDObject, ProjectID, ProjectIDPiece. You can also use more then one Project ID Piece, although only the one that is used with System IDs gets marked with ProjectIDPiece, the other ones use ProjectIDBase. To Apply these attributes it looks like so.
 
 ```cs
 namespace Fueled.Core {
@@ -130,10 +130,13 @@ namespace Fueled.Core {
     public sealed class FueledID {
         #region Identify: Project
         [ProjectIDPiece(FueledID.ProjectID)]
-        internal const string _projectIDPiece = "Fueled";
+        internal const string _projectIDPiece ="Core"
+        
+        [ProjectIDBase(FueledID.ProjectID)]
+        private const string _projectBase = "Fueled";
 
         [ProjectID(FueledID.ProjectID)]
-        public const string ProjectID = _projectIDPiece;
+        public const string ProjectID = _projectBase + "." + _projectIDPiece;
         #endregion
     }
 }
@@ -148,6 +151,31 @@ There are a few custom Optinal IDs that can be added to our Project ID Objects w
 - [**Setting Package**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#setting-package): Used to identify the custom settings package used by the project.
 
 ###### **Log Package**
+
+Fueled Core design system has built in features which allows you to designate the project's Log Package ID using the same attribute system. To do this you first add the following Using.
+
+```cs
+using Fueled.Core.Design.Logging;
+```
+
+Next you will go to your project ID Object and add a the following region block then add a public constant with the ID you want to use for your Project
+
+```cs
+#region Identity: Logging
+public const string LogPackage = FueledID.ProjectID;
+#endregion
+```
+
+Next you will add the given Attribute to the ID.
+
+```cs
+#region Identity: Logging
+[LogPackageID(Fueled.ProjectID)]
+public const string LogPackage = FueledID.ProjectID;
+#endregion
+```
+
+You are now done adding your logging package for your project.
 
 ###### **Setting Package**
 
