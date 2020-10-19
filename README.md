@@ -41,7 +41,7 @@ Realms Invasion is a new and WIP project which means that things are subject to 
             - [**Packaging**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Packaging/RI_Package.md)
             - [**Recycle**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Recycle/RI_Recycle.md)
             - [**Repurpose**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Repurpase/RI_Reuse.md)
-            - [**Survival**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/RI_Survival.md)
+            - [**Survival**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/Survival/RI_Survival.md)
         - [**Third Party Components**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/Components/ThirdPartyMods.md)
     - **Tools**
         - [**Projects**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects.md)
