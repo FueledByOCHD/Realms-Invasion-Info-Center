@@ -179,8 +179,117 @@ You are now done adding your logging package for your project.
 
 ###### **Setting Package**
 
+- **Not yet implimented**
+
 ##### **System ID Objects**
 
+For System ID objects much of the same applies as a project ID object, although you will be adding a region block called Identify: System, and then you will put all, System ID Piece, System ID and all the different feature ID's in that given region block. Which will look like so
+
+```cs
+namespace Fueled.Core.Apps {
+    public sealed class FueledAppID {
+        #region Identify: System
+        private const string _systemIDPiece = "FueledApp";
+
+        public const string SystemID = FueledID._projectIDPiece + "." + _systemIDPiece;
+
+		public const string LogicHostFeature = _appPiece + ".LogicHost";
+		public const string InitalizeFeature = _appPiece + ".Initalize";
+		public const string FolderFeature = _appPiece + ".Folder";
+		public const string InstanceFeature = _appPiece + ".Instance";
+		public const string SingleInstanceFeature = _appPiece + ".SingleInstance";
+        
+        #endregion
+    }
+}
+```
+
+Next is to add the following using statements to your System ID Class.
+
+```cs
+using Fueled.Core.Design.Systems;
+```
+
+Next we will be applying the system equivalant of the Project ID attributes, but this time making sure that to use the system version. This looks like 
+
+```cs
+namespace Fueled.Core.Apps {
+	[SystemIDObject( FueledID.ProjectID, FueledAppID.AppSystem )]
+	public sealed class FueledAppID {
+		#region Identify: System
+		[SystemIDPiece( FueledID.ProjectID, FueledAppID.AppSystem )]
+		internal const string _systemIDPiece = "FueledApp";
+
+		[SystemID( FueledID.ProjectID, FueledAppID.AppSystem )]
+		public const string AppSystem = FueledID._projectIDPiece + "." + _systemIDPiece;
+		#endregion
+	}
+}
+```
+
+As you can See there are System equivalant attributes for ProjectIDObject, ProjectIDPiece and ProjectID. 
+
+##### **Feature IDs**
+
+On to the last part that is contained within our System ID Object. This is the features of a given system. First thing to do if you havent already is add the features namespace
+
+```cs
+using Fueled.Core.Design.Systems.Features;
+```
+
+This will allow us to add attributes to our features to get things where they can be identified by the system. Next is to add the features to your system Object.
+
+```cs
+namespace Fueled.Core.Apps {
+    [SystemIDObject( FueledID.ProjectID, FueledAppID.AppSystem )]
+    public sealed class FueledAppID {
+        #region Identify: System
+       [SystemIDPiece( FueledID.ProjectID, FueledAppID.AppSystem )]
+		internal const string _systemIDPiece = "FueledApp";
+
+		[SystemID( FueledID.ProjectID, FueledAppID.AppSystem )]
+		public const string AppSystem = FueledID._projectIDPiece + "." + _systemIDPiece;
+
+		public const string LogicHostFeature = _appPiece + ".LogicHost";
+		public const string InitalizeFeature = _appPiece + ".Initalize";
+		public const string FolderFeature = _appPiece + ".Folder";
+		public const string InstanceFeature = _appPiece + ".Instance";
+		public const string SingleInstanceFeature = _appPiece + ".SingleInstance";
+        
+        #endregion
+    }
+}
+```
+
+Next we will be applying the Attributes to our feature ids which will end up looking like so.
+
+```cs
+namespace Fueled.Core.Apps {
+	[SystemIDObject( FueledID.ProjectID, FueledAppID.AppSystem )]
+	public sealed class FueledAppID {
+		#region Identify: System
+		[SystemIDPiece( FueledID.ProjectID, FueledAppID.AppSystem )]
+		internal const string _systemIDPiece = "FueledApp";
+
+		[SystemID( FueledID.ProjectID, FueledAppID.AppSystem )]
+		public const string AppSystem = FueledID._projectIDPiece + "." + _systemIDPiece;
+
+		[FeatureID(FueledID.ProjectID, FueledAppID.AppSystem,FueledAppID.LogicHostFeature)]
+		public const string LogicHostFeature = _systemIDPiece + ".LogicHost";
+		[FeatureID( FueledID.ProjectID, FueledAppID.AppSystem, FueledAppID.InitalizeFeature )]
+		public const string InitalizeFeature = _systemIDPiece + ".Initalize";
+		[FeatureID( FueledID.ProjectID, FueledAppID.AppSystem, FueledAppID.FolderFeature )]
+		public const string FolderFeature = _systemIDPiece + ".Folder";
+		[FeatureID( FueledID.ProjectID, FueledAppID.AppSystem, FueledAppID.InstanceFeature )]
+		public const string InstanceFeature = _systemIDPiece + ".Instance";
+		[FeatureID( FueledID.ProjectID, FueledAppID.AppSystem, FueledAppID.SingleInstanceFeature )]
+		public const string SingleInstanceFeature = _systemIDPiece + ".SingleInstance";
+		#endregion
+	}
+}
+```
+
+You have now successfully applied all the given attributes that are used to Identify your Project, System and the system's features. These will be used by other attributes to allow the system to read the given Systems and features inside a given project.
 
 ### **Related Tutorials**
 
