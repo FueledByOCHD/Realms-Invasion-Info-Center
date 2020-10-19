@@ -46,7 +46,7 @@ The following knowledge or the will to learn are required before attempting
 |C#(Sharp)|Basic|
 |Project Management (C#)|Basic|
 |.Net Framework 4.7.2|Basic|
-|[**Fueled CS Design Pattern**]()|Basic|
+|[**Fueled CS Design Pattern**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md)|Basic|
 
 ### **Sections**
 
@@ -64,7 +64,7 @@ To Develop your new app with Fueled Core you must have an understanding of how F
 
 #### **Using with existing App**
 
-Please I ask you to do a new rewrite of your applications, while this may sound like alot of work. I recomend this to keep the hair pulling to a minimum. Do to using my [**C# Design Patern**]() it will require a pretty much complete rewrite anyways.
+Please I ask you to do a new rewrite of your applications, while this may sound like alot of work. I recomend this to keep the hair pulling to a minimum. Do to using my [**C# Design Patern**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md) it will require a pretty much complete rewrite anyways.
 
 Fueled Core is designed Spesificly with my custom CS pattern in mind.
 

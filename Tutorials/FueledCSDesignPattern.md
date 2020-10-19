@@ -31,6 +31,14 @@ This page covers the custom design pattern used by all my projects and works.
             - [**System ID Objects**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#system-id-objects)
             - [**Feature IDs**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#feature-ids)
         - [**Library Tracking**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#library-tracking)
+        - [**Systems Tracking**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#systems-tracking)
+        - [**Feature Tracking**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#feature-tracking)
+        - [**Data Orgonization**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#data-orgonization)
+            - [**Construct**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#construct)
+            - [**Convert**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#convert)
+            - [**Debug**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#debug)
+            - [**Equality**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#equality)
+            - [**Math**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#math)
     - [**Related Tutorials**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/FueledCSDesignPattern.md#related-tutorials)
 
 ### **About**
@@ -54,6 +62,7 @@ The following knowledge or the will to learn are required before attempting
 |**Knowledge**|**Level**|**Desc**|
 |:---:|:---:|:---|
 |C# (CSharp)|Basic|The ability to code using the cSharp language is required|
+|C# - .Net Framework 4.7.2|Basic|Neet to know the basics of using .Net Framework Version 4.7.2|
 |C# - Attributes|Basic|Need to know the basics of applying attributes to c# objects|
 |C# - Constants|Basic|Need to know how to create constant fields|
 |C# - Strings|Basic|The basic knowledge of string values in c#|
@@ -308,9 +317,30 @@ Next we will add the following to the bottom of the page.
 [assembly: ProjectLibrary(FueledID.ProjectID)]
 ```
 
-Replace the "FueledID.ProjectID" with the your libraries "ProjectIDObject" class and your Project ID.
+Replace the "FueledID.ProjectID" with the your libraries "ProjectIDObject" class and your Project ID. Now you have applied it so that your library(ies) will now be analized by Realms Invasion 'Projects' to allow for extra new features.
+
+#### **System Tracking**
+
+#### **Feature Tracking**
+
+#### **Data Orgonization**
+
+##### **Construct**
+
+##### **Convert**
+
+##### **Debug**
+
+##### **Equality**
+
+##### **Math**
+
+
+
+
 
 ### **Related Tutorials**
 
-- [**Fueled.Core**]()
-    - [**Design System**]()
+- **Fueled.Core**
+    - [**Apps System**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Libraries/FueledCore/Apps/FueledAppsTutorial.md)
+    - [**Design System**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Libraries/FueledCore/Systems/DesignSystem.md)
