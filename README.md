@@ -92,10 +92,12 @@ Invade 'Prototypes' is the reference for Invade 'Prototype' and Invade 'Protofra
 
 ### **Invade Prototypes Status**
 
+Invade 'Prototype' and 'Protoframe' are currently in active development to be used as the base for the Realms Invasion Modset. These two projects are the "Prototype" of the Realms Invasion Mods.
+
 ## **What is Realms Invasion**
 
 Realms Invasion is a collection of mods with the long term goal of overhauling Project Zomboid with more of a Sci-Fi Fantasy theme based off [**Realms of Reality Lore**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutRealmsOfReality.md). The end goal is to eventually transform this into a game of its own.
 
 ### **Realms Invasion Status**
 
-Realms Invasion Mods are on hole while I focus my attention on [**Invade 'Prototypes'**]() which will be the simi-typed version of the complete Invasion Modset, as well as  while I develop out [**Realms Invasion 'Projects'**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects.md) out to allow me to more effectivly develop and maintain them.
+Realms Invasion Mods are on hole while I focus my attention on [**Invade 'Prototypes'**]() which will be the simi-typed version of the complete Invasion Modset, as well as while I develop out [**Realms Invasion 'Projects'**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects.md) out to allow me to more effectivly develop and maintain them.
