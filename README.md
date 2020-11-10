@@ -11,11 +11,12 @@ Realms Invasion is a new and WIP project which means that things are subject to 
 - [**About the Repo**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#about-the-repo)
 - [**About Project 'Realms'**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutProjectRealms.md)
 - [**What is Realms Invasion**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#what-is-realms-invasion)
-	- [**Realms Invasion Status**]()
+	- [**Realms Invasion Status**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#realms-invasion-status)
 	- [**What is Realms of Reality**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutRealmsOfReality.md)
     - [**Realms Invasion Features**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#realms-invasion-features)
-- [**What is Invade 'Prototypes'**]()
-	- [**Invade 'Prototypes' Status**]()    
+- [**What is Invade 'Prototypes'**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#what-is-invade-prototypes)
+	- [**Invade 'Prototypes' Status**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#invade-prototypes-status)  
+- [**What are Types**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#what-are-types)  
 - [**Index**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#index)
     - **General**
         - [**Tutorials Home**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/TutorialsHome.md)
@@ -27,7 +28,7 @@ Realms Invasion is a new and WIP project which means that things are subject to 
     - **Mods**
 		- **Invade Prototypes**
 			- [**Prototype**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Prototypes/Prototype/InvadeProto.md)
-			- [**Protoframe**]()
+			- [**Protoframe**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Prototypes/Protoframe/InvadeFrame.md)
 		- **Realms Invasion Mods**
         	- [**Framework**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Framework/RI_Frame.md)
         	- [**Aftermath**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Mods/Aftermath/RI_Aftermath.md)
@@ -74,9 +75,9 @@ obj.CallFunc()
 If your trying to call data. With the Hard Typed version "Realms Invasion Modset" there will be one
 to remember which is the normal . call. And will eventuall allow for different "Security" levels on object fields, properties and function (Logic) calls.
 
-Hard Type refers to a full access level type system which is mimics C# in Lua.
-Simi-Type refers to a value based type system which "Loosely" enforces data types.
-Basic-Type refers to systems like that of lua and JS which have a few "Basic" data types.
+**Hard Type** refers to a full access level type system which is mimics C# in Lua.
+**Simi-Type** refers to a value based type system which "Loosely" enforces data types.
+**Basic-Type** refers to systems like that of lua and JS which have a few "Basic" data types.
 
 **Security Levels**
 
@@ -88,7 +89,7 @@ Basic-Type refers to systems like that of lua and JS which have a few "Basic" da
 
 ## **What is Invade Prototypes**
 
-Invade 'Prototypes' is the reference for Invade 'Prototype' and Invade 'Protoframe' which are the loose typed version of the eventual Hard Typed Realms Invasion Modset. 
+Invade 'Prototypes' is the reference for Invade 'Prototype' and Invade 'Protoframe' which are the [simi-typed](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#what-are-types) version of the eventual [Hard Typed](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#what-are-types) Realms Invasion Modset. 
 
 ### **Invade Prototypes Status**
 
@@ -100,4 +101,4 @@ Realms Invasion is a collection of mods with the long term goal of overhauling P
 
 ### **Realms Invasion Status**
 
-Realms Invasion Mods are on hole while I focus my attention on [**Invade 'Prototypes'**]() which will be the simi-typed version of the complete Invasion Modset, as well as while I develop out [**Realms Invasion 'Projects'**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects.md) out to allow me to more effectivly develop and maintain them.
+Realms Invasion Mods are on hole while I focus my attention on [**Invade 'Prototypes'**]() which will be the [simi-typed](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#what-are-types) version of the complete Invasion Modset, as well as while I develop out [**Realms Invasion 'Projects'**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tools/Projects/RI_Projects.md) out to allow me to more effectivly develop and maintain all my projects.
