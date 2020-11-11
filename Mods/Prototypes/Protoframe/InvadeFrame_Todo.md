@@ -21,6 +21,8 @@ This page is used to keep up to date with current tasks planned as well as chang
 	
 ### **Todo**
 
+- Update all functions to use Error Defs
+- Add New Error Defs if needed for functions
 - Build Tuts For Systems
 	- Debug
 	- Errors

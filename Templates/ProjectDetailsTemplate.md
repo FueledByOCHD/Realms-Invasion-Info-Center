@@ -23,6 +23,10 @@
 |Name|{}|
 |Desc|{}|
 
+**Requirements**
+|Name|ID|ThirtParty|Version|
+|:---|:---|:---|:---|
+
 ### **Systems**
 
 This section covers the current Systems in the Development Version of this project.
