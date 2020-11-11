@@ -16,13 +16,18 @@ This page covers how to work with Invade 'Protoframe's Debug System
     - [**What is Realms of Reality**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/AboutRealmsOfReality.md)
     - [**Realms Invasion Features**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#realms-invasion-features)
 - [**Tutorials Home**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/TutorialsHome.md)
-- [**Index**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/{}#index)
-    - [**About**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/{}#about)
-    - [**Required Apps**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/{}#required-apps)
-    - [**Required knowledge**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/{}#required-knowledge)
-    - [**Sections**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/{}#sections)
-
-    - [**Related Tutorials**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/{}#related-tutorials)
+- [**Index**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#index)
+    - [**About**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#about)
+    - [**Required Apps**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#required-apps)
+    - [**Required knowledge**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md##required-knowledge)
+    - [**Sections**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#sections)
+		- [**Load Enforcement**]()
+		- [**Broken State**]()
+		- [**Debug Logging Feature**]()
+		- [**Call Result Feature**]()
+		- [**Try Catch Feature**]()
+		- [**Basic Errors Feature**]()
+    - [**Related Tutorials**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#related-tutorials)
 
 ### **About**
 
@@ -71,7 +76,7 @@ if Invade.Debug.IsBroken() then return end;
 
 #### **Debug Logging Feature**
 
-This system uses a custom logging feature which is built ontop of the normal 'print' feature of lua. This system is used along side [Call Result Feature](), [Inline Errors Feature](), [Try Catch Feature]() to provide a unique debugging Experience. This feature uses one public method call to provide the logic to Log Messages, Call Results and Error Data. Along with a planned feature for scrubbing objects to print them for easier debugging of Objects.
+This system uses a custom logging feature which is built ontop of the normal 'print' feature of lua. This system is used along side [Call Result Feature](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#call-result-feature), [Try Catch Feature](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#try-catch-feature) to provide a unique debugging Experience. This feature uses one public method call to provide the logic to Log Messages, Call Results and Error Data. Along with a planned feature for scrubbing objects to print them for easier debugging of Objects.
 
 This call looks like this (with all paramaters explains after)
 ```lua
@@ -132,21 +137,152 @@ The CreateFail function accepts the following Paramaters
 
 #### **Try Catch Feature**
 
-The try-catch feature is used to run code which uses both the [Call Result Feature]() along with a number of other feature to allow users to know if the call was successful or if there was some type of error. While many will feel this system is overkill. But to work with Invade 'Protoframe' you will need a understanding of this feature. It will be the most used feature.
+The try-catch feature is used to run code which uses both the [Call Result Feature](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#call-result-feature) along with a number of other feature to allow users to know if the call was successful or if there was some type of error. While many will feel this system is overkill. But to work with Invade 'Protoframe' you will need a understanding of this feature. It will be the most used feature.
 
 Now to call a feature using this feature we do the following (the following will throw error to allow you to put code together yourself and test)
 ```lua
 local health = 850;
 local maxHealth = 0
-local result = Invade.Debug.TryCatch( IE.Math.Devide, "Example showing features and how to uses errors and try catch", nil, health, maxHealth );
+-- Attempt to devide
+local result = Invade.Debug.TryCatch( 
+	IE.Math.Devide, 
+	"Example showing features and how to uses errors and try catch",
+	{
+		Project = "Prototest",
+		System = "Player",
+		Feature = "Health Error Test"
+	},
+	health,
+	maxHealth
+);
+-- On failure log the error message
 if not result.Success then
 	Invade.Debug.LogMessage( "Error", result.Error, true, "ProtoTest", "Player", "Health Error Test" );
 	return;
 end
 ```
 
+**Invade.Debug.TryCatch: Paramaters**
+|Name|Expected Data|Type|Desc|
+|:---:|:---:|:---:|:---|
+|Function|Function|Required|The function you want to call|
+|Message|string|Required|The message or ID to be used for the error generation|
+|CreateData|table or nil|Required|The data to be passed to error generation|
+|Params|Param List|Required|The paramaters you want to pass to the function seperated by ,|
+
 #### **Basic Errors**
+
+This system provides some basic error definitions that are provided to give users some Common errors that can be used to simplify the process of development as well as keeping the number of errors down.
+
+|**Knowledge**|**Level**|**Desc**|
+|:---:|:---:|:---|
+|Protoframe - Error System - Error Defs|Basic|A basic understanding of what a error definition is|
+|Protoframe - Error System - Error Data|Basic|A basic understanding of what a error object is|
+|[Protoframe - Debug System - Try Catch](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#try-catch-feature)|Basic|A basic understanding of how to use the try catch feature|
+|[Protoframe - Debug System - CallResult](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#call-result-feature)|Basic|A basic understanding of the call result feature|
+
+**Nil Arg**
+
+This error is used to allow us to throw a unique message unique to nil values that shouldnt be. For this tutorial I will be updating the example math function to use the error definition.
+**ErrorID: Invade.Debug.NilArg**
+```lua
+function IE.Math.Devide( num1, num2 )
+	if not num1 then 
+		return Invade.Debug.CreateFail(
+			"Invade.Debug.NilArg", 
+			nil,
+			{ 
+				ID = "num1", 
+				Project = "ProtoTest", 
+				System = "Math", 
+				Feature = "Division"
+			}
+		);
+	end;
+	if not num2 then 
+		return Invade.Debug.CreateFail(
+			"Invade.Debug.NilArg", 
+			nil, 
+			{ 
+				ID = "num2", 
+				Project = "ProtoTest", 
+				System = "Math", 
+				Feature = "Division" 
+			}
+		); 
+	end;
+	if type(num1) ~= "number" then Invade.Debug.CreateFail("Num1 is not a number", nil, nil, "ProtoTest", "Math", "Devision") end;
+	if type(num2) ~= "number" then return Invade.Debug.CreateFail("Num2 is not a number", nil, nil, "ProtoTest", "Math", "Devision") end;
+	if num2 == 0 then return Invade.Debug.CreateFail("Can not devide by 0", nil, nil, "ProtoTest", "Math", "Devision") end;
+	return Invade.Debug.CreateSuccess( num1/num2 );
+end
+```
+
+You will notice this time we used the createData paramater of the create fail, and dropped the project, system and features from the func. moving those last 3 to the create data. This allows the system to customize the ErrorData filling the infomation based on the create data.
+
+**NilArg - Create Data Params**
+|FieldName|Desc|
+|:---|:---|
+|Param|This is the value name that should not be nil|
+|Project|This customizes the error as to coming from given project|
+|System|This customizes the error as to coming from system from given project|
+|Feature|This customizes the error as coming from a given feature inside given system|
+
+
+**Wrong Type**
+
+This error is used to identify that a given paramater is not the correct type.
+**ErrorID: Invade.Debug.WrongType**
+To show this error I will be again updating the math example to use this error
+```lua
+function IE.Math.Devide( num1, num2 )
+	if not num1 then return Invade.Debug.CreateFail("Invade.Debug.NilArg", nil, { Param = "num1", Project = "ProtoTest", System = "Math", Feature = "Division" }) end;
+	if not num2 then return Invade.Debug.CreateFail(Invade.Debug.CreateFail("Invade.Debug.NilArg", nil, { Param = "num2", Project = "ProtoTest", System = "Math", Feature = "Division" }) end;
+	if type(num1) ~= "number" then 
+		Invade.Debug.CreateFail(
+			"Invade.Debug.WrongType", 
+			nil, 
+			{
+				Param = "num1",
+				Expect = "number",
+				Current = num1,
+				Project = "ProtoTest", 
+				System = "Math", 
+				Feature = "Division"
+			}
+		)
+	end;
+	if type(num2) ~= "number" then 
+		return Invade.Debug.CreateFail(
+			"Invade.Debug.WrongType", 
+			nil, 
+			{
+				Param = "num2",
+				Expect = "number",
+				Current = num1,
+				Project = "ProtoTest",
+				System = "Math",
+				Feature = "Division"
+			}
+		);
+	end;
+	if num2 == 0 then return Invade.Debug.CreateFail("Can not devide by 0", nil, nil, "ProtoTest", "Math", "Devision") end;
+	return Invade.Debug.CreateSuccess( num1/num2 );
+end
+```
+
+**WrongType - Create Data Params**
+|FieldName|Desc|
+|:---|:---|
+|Param|This is the value name that is the wrong type|
+|Current|This is the obj for error to get the type (using frame)|
+|Expect|This is the string value of the type that is to be expected|
+|Project|This customizes the error as to coming from given project|
+|System|This customizes the error as to coming from system from given project|
+|Feature|This customizes the error as coming from a given feature inside given system|
 
 ### **Related Tutorials**
 
-
+- [**Protoframe - Errors System**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/ErrorsSystem.md)
+- [**Protoframe - Frame System**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/FrameSystem.md)
+- [**Protoframe - GameLink System**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/GameLinkSystem.md)
