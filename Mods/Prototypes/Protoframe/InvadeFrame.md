@@ -22,6 +22,10 @@ This page covers the active development infomation of all things related to Inva
 
 ### **About**
 
+Invade 'Protoframe' is the active development [Simi-Typed](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md#what-are-types) Prototype of both Realms Invasion 'Framework' and for some features planned for use with a planned game 'Quick Reaction Force'.
+
+Protoframe is a High Level, Debugging Orieneted Mod meant for providing basic features which are developed for making development of Project Zomboid mods much easier to maintain by providing the basics that allow for Logging of messages to a custom error system designed to allow errors to be passed between functions to make the job of figuring out issues much easier.
+
 Some Key Features include
 |Name|Desc|
 |:---|:---|
@@ -290,8 +294,8 @@ This section covers the current Systems in the Development Version of this proje
 
 |Detail|Value|
 |:---|:---|
-|Feature ID|{}|
-|Name|{}|
+|Feature ID|GameLink.Items|
+|Name|Item Link Feature|
 |Dev Version|V 1.0|
 |Public Version|V ---|
 |Beta Version|V ---|

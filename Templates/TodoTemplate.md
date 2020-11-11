@@ -1,12 +1,12 @@
-# Realms Invasion 'Info Center': **PZ Mods - Prototypes - Protoframe - Todo and Changes**
+# Realms Invasion 'Info Center': **{} - Todo and Changes**
 
-Welcome to the **PZ Mods - Prototypes - Protoframe - Todo and Changes** page of the Realms Invasion Info Center. 
+Welcome to the **{} - Todo and Changes** page of the Realms Invasion Info Center. 
 This 'Info Center' is the public knowledge database for the Realms Invasion Mods for Project Zomboid
 
 A few things to note, 
 Realms Invasion is a new and WIP project which means that things are subject to change alot between releases so please I ask you keep coming back from time to time
 
-This page is used to keep up to date with current tasks planned as well as changes for each version.
+{}
 
 ## **Index**
 - [**Home**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/README.md)
@@ -21,13 +21,4 @@ This page is used to keep up to date with current tasks planned as well as chang
 	
 ### **Todo**
 
-- Build Tuts For Systems
-	- Debug
-	- Errors
-	- Frame
-	- Game Link
-
 ### **Changes**
-
-**V 1.0.0:**
-- Inital Release
