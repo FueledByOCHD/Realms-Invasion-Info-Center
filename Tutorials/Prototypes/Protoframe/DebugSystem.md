@@ -1,6 +1,6 @@
 # Realms Invasion 'Info Center': **Tutorials - Prototypes - Protoframe - Debug System**
 
-Welcome to the **Tutorials - Prototypes - Protoframe - Debug System ** page of the Realms Invasion Info Center. 
+Welcome to the **Tutorials - Prototypes - Protoframe - Debug System** page of the Realms Invasion Info Center. 
 This 'Info Center' is the public knowledge database for the Realms Invasion Mods for Project Zomboid
 
 A few things to note, 
@@ -21,12 +21,12 @@ This page covers how to work with Invade 'Protoframe's Debug System
     - [**Required Apps**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#required-apps)
     - [**Required knowledge**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md##required-knowledge)
     - [**Sections**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#sections)
-		- [**Load Enforcement**]()
-		- [**Broken State**]()
-		- [**Debug Logging Feature**]()
-		- [**Call Result Feature**]()
-		- [**Try Catch Feature**]()
-		- [**Basic Errors Feature**]()
+		- [**Load Enforcement**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#load-enforcement)
+		- [**Broken State**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#broken-state)
+		- [**Debug Logging Feature**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#debug-logging-feature)
+		- [**Call Result Feature**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#call-result-feature)
+		- [**Try Catch Feature**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#try-catch-feature)
+		- [**Basic Errors Feature**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#basic-errors-feature)
     - [**Related Tutorials**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md#related-tutorials)
 
 ### **About**
@@ -49,8 +49,8 @@ The following knowledge or the will to learn are required before attempting
 |**Knowledge**|**Level**|**Desc**|
 |:---:|:---:|:---|
 |Lua|Basic|A basic understand of the lua language is required to understand this tutorial|
-|[Load Enforcement]()|Basic|A basic understanding of the concept used to ensure systems are loaded and installed|
-|[Broken State]()|Basic|A basic understanding of the concept used to ensure that the system your working with is not broken is required.
+|[Load Enforcement](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/LoadEnforce.md)|Basic|A basic understanding of the concept used to ensure systems are loaded and installed|
+|[Broken State](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/BrokenState.md)|Basic|A basic understanding of the concept used to ensure that the system your working with is not broken is required.
 
 ### **Sections**
 
