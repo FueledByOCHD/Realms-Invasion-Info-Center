@@ -56,7 +56,7 @@ The following knowledge or the will to learn are required before attempting
 
 #### **Load Enforcement**
 
-To ensure that that both the Debug System and Error System are installed we put the following lines of code at the top of all files that are going to use this system (Which when working with 'Protoframe' or 'Prototype' this will be required)
+To ensure that that both the Debug System and Error System as well as frame system are installed we put the following lines of code at the top of all files that are going to use this system (Which when working with 'Protoframe' or 'Prototype' this will be required), 
 
 ```lua
 -- First check to make sure that the 'Framework System' is Installed and loaded
@@ -116,16 +116,16 @@ end
 To generate a error message you will do the following
 ```lua
 function IE.Math.Devide( num1, num2 )
-	if not num1 then return Invade.Debug.CreateFail("Num1 Can not be a nil value", nil, nil, "ProtoTest", "Math", "Devision") end;
-	if not num2 then return Invade.Debug.CreateFail("Num2 Can not be a nil value", nil, nil, "ProtoTest", "Math", "Devision") end;
-	if type(num1) ~= "number" then Invade.Debug.CreateFail("Num1 is not a number", nil, nil, "ProtoTest", "Math", "Devision") end;
-	if type(num2) ~= "number" then return Invade.Debug.CreateFail("Num2 is not a number", nil, nil, "ProtoTest", "Math", "Devision") end;
-	if num2 == 0 then return Invade.Debug.CreateFail("Can not devide by 0", nil, nil, "ProtoTest", "Math", "Devision") end;
+	if not num1 then return Invade.Debug.CreateError("Num1 Can not be a nil value", nil, nil, "ProtoTest", "Math", "Devision") end;
+	if not num2 then return Invade.Debug.CreateError("Num2 Can not be a nil value", nil, nil, "ProtoTest", "Math", "Devision") end;
+	if type(num1) ~= "number" then Invade.Debug.CreateError("Num1 is not a number", nil, nil, "ProtoTest", "Math", "Devision") end;
+	if type(num2) ~= "number" then return Invade.Debug.CreateError("Num2 is not a number", nil, nil, "ProtoTest", "Math", "Devision") end;
+	if num2 == 0 then return Invade.Debug.CreateError("Can not devide by 0", nil, nil, "ProtoTest", "Math", "Devision") end;
 	return Invade.Debug.CreateSuccess( num1/num2 );
 end
 ```
 
-The CreateFail function accepts the following Paramaters
+The CreateError function accepts the following Paramaters
 |Name|Expected Data|Type|Desc|
 |:---:|:---:|:---:|:---|
 |Message|string (optinal check for registered Error Checks)|Required|The message or "ID" of a registered error Definition|
@@ -188,7 +188,7 @@ This error is used to allow us to throw a unique message unique to nil values th
 ```lua
 function IE.Math.Devide( num1, num2 )
 	if not num1 then 
-		return Invade.Debug.CreateFail(
+		return Invade.Debug.CreateError(
 			"Invade.Debug.NilArg", 
 			nil,
 			{ 
@@ -200,7 +200,7 @@ function IE.Math.Devide( num1, num2 )
 		);
 	end;
 	if not num2 then 
-		return Invade.Debug.CreateFail(
+		return Invade.Debug.CreateError(
 			"Invade.Debug.NilArg", 
 			nil, 
 			{ 
@@ -211,9 +211,9 @@ function IE.Math.Devide( num1, num2 )
 			}
 		); 
 	end;
-	if type(num1) ~= "number" then Invade.Debug.CreateFail("Num1 is not a number", nil, nil, "ProtoTest", "Math", "Devision") end;
-	if type(num2) ~= "number" then return Invade.Debug.CreateFail("Num2 is not a number", nil, nil, "ProtoTest", "Math", "Devision") end;
-	if num2 == 0 then return Invade.Debug.CreateFail("Can not devide by 0", nil, nil, "ProtoTest", "Math", "Devision") end;
+	if type(num1) ~= "number" then Invade.Debug.CreateError("Num1 is not a number", nil, nil, "ProtoTest", "Math", "Devision") end;
+	if type(num2) ~= "number" then return Invade.Debug.CreateError("Num2 is not a number", nil, nil, "ProtoTest", "Math", "Devision") end;
+	if num2 == 0 then return Invade.Debug.CreateError("Can not devide by 0", nil, nil, "ProtoTest", "Math", "Devision") end;
 	return Invade.Debug.CreateSuccess( num1/num2 );
 end
 ```
@@ -236,10 +236,10 @@ This error is used to identify that a given paramater is not the correct type.
 To show this error I will be again updating the math example to use this error
 ```lua
 function IE.Math.Devide( num1, num2 )
-	if not num1 then return Invade.Debug.CreateFail("Invade.Debug.NilArg", nil, { Param = "num1", Project = "ProtoTest", System = "Math", Feature = "Division" }) end;
-	if not num2 then return Invade.Debug.CreateFail(Invade.Debug.CreateFail("Invade.Debug.NilArg", nil, { Param = "num2", Project = "ProtoTest", System = "Math", Feature = "Division" }) end;
+	if not num1 then return Invade.Debug.CreateError("Invade.Debug.NilArg", nil, { Param = "num1", Project = "ProtoTest", System = "Math", Feature = "Division" }) end;
+	if not num2 then return Invade.Debug.CreateError("Invade.Debug.NilArg", nil, { Param = "num2", Project = "ProtoTest", System = "Math", Feature = "Division" }) end;
 	if type(num1) ~= "number" then 
-		Invade.Debug.CreateFail(
+		Invade.Debug.CreateError(
 			"Invade.Debug.WrongType", 
 			nil, 
 			{
@@ -253,7 +253,7 @@ function IE.Math.Devide( num1, num2 )
 		)
 	end;
 	if type(num2) ~= "number" then 
-		return Invade.Debug.CreateFail(
+		return Invade.Debug.CreateError(
 			"Invade.Debug.WrongType", 
 			nil, 
 			{
@@ -266,7 +266,7 @@ function IE.Math.Devide( num1, num2 )
 			}
 		);
 	end;
-	if num2 == 0 then return Invade.Debug.CreateFail("Can not devide by 0", nil, nil, "ProtoTest", "Math", "Devision") end;
+	if num2 == 0 then return Invade.Debug.CreateError("Can not devide by 0", nil, nil, "ProtoTest", "Math", "Devision") end;
 	return Invade.Debug.CreateSuccess( num1/num2 );
 end
 ```

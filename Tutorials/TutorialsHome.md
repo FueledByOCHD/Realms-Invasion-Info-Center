@@ -32,13 +32,13 @@ This is the home page for all the tutorials of all things Realms Invasion. This 
         - [**How to Mod with 'Projects'**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Zomboid/ModdingWithProjects.md)
 	- **Invade Prototypes**
 		- **Invade 'Protoframe'**
-			- [**Home**]()
+			- [**Home**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/ProtoframeHome.md)
 			- **Systems**
-				- [**Debug**]()
-				- [**Errors**]()
-				- [**Frame**]()
-				- [**Game Link**]()
+				- [**Debug**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/DebugSystem.md)
+				- [**Errors**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/ErrorsSystem.md)
+				- [**Frame**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/FrameSystem.md)
+				- [**Game Link**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/Protoframe/GameLinkSystem.md)
 		- **Invade 'Prototype'**
-			- [**Home**]()
+			- [**Home**](https://github.com/FueledByOCHD/Realms-Invasion-Info-Center/blob/develop/Tutorials/Prototypes/PrototypeHome.md)
 			- **Systems**
 				- [**Item System**]()
