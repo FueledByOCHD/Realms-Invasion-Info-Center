@@ -27,7 +27,7 @@ This page is here to allow for a place to view those that have helped me as well
 |Bloody Row Row|Thank you for always being there for me and pushing me to keep working on my intrest and hobbies|
 |My Lil Stich|Thank you for being there to give my self more determaination to complete my goals my son|
 |My Lil Mermaid|Thank you for brightening my day with your cheerful outlook my daughter|
-|My Grandpa|I miss you dearly, but know your in a better place not. Thank you for always beliving in me and instilling my outlook on life.|
+|My Grandpa|I miss you dearly, but know your in a better place now. Thank you for always beliving in me and instilling my outlook on life.|
 
 ### **Helper Credits**
 
@@ -37,6 +37,8 @@ The following are for credits to people who have helped me in some way with my w
 |:---:|:---|
 |Serameth|Thank you for helping check the info center and helping to make sure my spelling and grammar is not a major killer|
 |Developerv|Thank you for helping me with alot of development questions, and helping to act as my 'Professor'|
+|Asilar|Thank you for asking all the questions you did and help keep my mind fresh and thinking|
+|MrMarcinQ|Thank you for the Icons you made and allowed me to use|
 
 ### **Patreon Credits**
 
