@@ -30,7 +30,7 @@ Realms of Reality is a Role Playing Lore set built around being used in Classles
 
 Realms of Reality's biggest focus on allowing players to play the way they want without enforcing any wierd restrictions like Classes. For example, Just because your 'Primary' occupation is a 'Wizard' for example does not mean that you are unable to use a sword. Instead with Realms you will only be able to use some spells and abilities while a sword is equipped, as well as inability to use other spells due to having the said sword equipped.
 
-Realms of Reality focuses on a task based skill system which means the more you use do a take the better you become at it. This applies to everything from, Skills, Jobs, ect..
+Realms of Reality focuses on a task based skill system which means the more you use do a skill the better you become at it. This applies to everything from, Skills, Jobs, ect..
 
 ### **History**
 
